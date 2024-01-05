@@ -1,0 +1,12 @@
+{
+    "inicio": {
+        "mdh": "./resources/inicio/MDH.html",
+        "quienessomos": "./resources/inicio/quienesSomos.html",
+        "programas": "./resources/inicio/programas.html",
+        "gestionsocial": "./resources/inicio/gestionSocial.html",
+        "noticias": "./resources/inicio/noticias.html"
+    },
+    "login": {
+        
+    }
+}

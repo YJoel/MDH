@@ -36,7 +36,56 @@ $pageName = "NOTICIAS";
       <div class='pageTitle pb-4'>
         <h1> NOTICIAS </h1>
       </div>
-      <!--
+      <div class="text-center noticia">
+        <div class="row justify-content-center" style="font-weight: bold;">
+          INFORME FUNDADIÓN MI DERECHO ES UN HECHO
+        </div>
+        <div class="row">
+          <a href="https://heyzine.com/flip-book/2db4a266d7.html" target="_blank">
+            <img src="">
+
+            </img>
+          </a>
+        </div>
+      </div>
+      <div class="text-center noticia">
+        <div class="row justify-content-center" style="font-weight: bold;">
+          ASISTENCIA TÉCNICA
+        </div>
+        <div class="row">
+          <a href="https://heyzine.com/flip-book/c6c82b7c23.html" target="_blank">
+            <img src="">
+
+            </img>
+          </a>
+        </div>
+      </div>
+      <div class="text-center noticia">
+        <div class="row justify-content-center" style="font-weight: bold;">
+          INFORME
+        </div>
+        <div class="row">
+          <a href="https://heyzine.com/flip-book/9e94aeea03.html" target="_blank">
+            <img src="">
+
+            </img>
+          </a>
+        </div>
+      </div>
+      <div class="text-center noticia">
+        <div class="row justify-content-center" style="font-weight: bold;">
+          INFORME TRIMESTRAL SECTOR RELIGIOSO
+        </div>
+        <div class="row">
+          <a href="https://heyzine.com/flip-book/6775c7f571.html" target="_blank">
+            <img src="">
+
+            </img>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--
         <div class="noticiasContainer p-5">
           <div class="row p-3">
             <div class="noticiasDestacadas">
@@ -74,7 +123,7 @@ $pageName = "NOTICIAS";
           </div>
         </div>
       -->
-    </div>
+  </div>
   </div>
 
   <?php
@@ -82,7 +131,9 @@ $pageName = "NOTICIAS";
   include_once "../../resources/footer.html";
 
   ?>
-
+  <script>
+    cargarNoticias()
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>

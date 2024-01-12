@@ -38,9 +38,6 @@ $pageName = "QUIENES SOMOS";
       </div>
       <div class="qs-container">
         <div class="qs-item text">
-          <h4>
-            QUIENES SOMOS
-          </h4>
           <p>
             La Fundación Mi derecho es un Hecho es una Organización sin ánimo de lucro que vela por los derechos
             humanos. Su propósito básico consiste en la construcción, desarrollo y fortalecimiento de la sociedad,

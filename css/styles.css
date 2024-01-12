@@ -7,6 +7,16 @@ body{
     background-color: white;
 }
 
+.noticia > *{
+    padding: 10px;
+}
+
+
+img{
+    border-radius: 10px;
+    max-height: 60vh;
+}
+
 .nav-bar{
     position: relative;
     z-index: 1;
@@ -162,35 +172,14 @@ body{
 
 .container-transition{
     position: relative;
-    width: 80%;
-    border: 2px solid blue;
-    overflow: hidden;
+    width: 100vh;
+    height: 60vh;
     border-radius: 10px;
 }
 
 .container-ul{
-    width: 400%;
-    display: flex;
-    animation: transicionInicio 20s alternate infinite ease-in-out;
-    animation-delay: 1s;
-}
-
-@keyframes transicionInicio{
-    0%{
-        margin-left: 0%;
-    }
-    25%{
-        margin-left: -100%;
-    }
-    50%{
-        margin-left: -200%;
-    }    
-    75%{
-        margin-left: -300%;
-    }
-    100%{
-        margin-left: -300%;
-    }
+    width: 100%;
+    display: block;
 }
 
 .container-elements{
@@ -199,7 +188,9 @@ body{
 
 .container-elements > img{
     width: 100%;
-    vertical-align: middle;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s;
 }
 
 @media screen and (max-width: 1000px) {
@@ -307,7 +298,15 @@ body{
     padding: 0%;
 }
 
-.qs-container{
+.qs-container:nth-child(2){
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qs-container:not(.qs-container:nth-child(2)){
     position: relative;
     width: 100%;
     display: flex;

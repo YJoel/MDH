@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio de Sesion - MDH </title>
-    <link rel="shortcut icon" href="../../images/simbolo_azul1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../images/MDH.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
@@ -21,8 +21,8 @@
     </div>
     <div class="flex-container">
         <div class="position-absolute top-0 start-50 translate-middle bg-light">
-            <img src="../../images/simbolo_azul1.png" alt="">
-            <a style="text-decoration: none" href="../../">
+            <img src="../../images/MDH.png" alt="">
+            <a style="text-decoration: none">
                 <h5>MI DERECHO ES UN HECHO</h5>
             </a>
         </div>

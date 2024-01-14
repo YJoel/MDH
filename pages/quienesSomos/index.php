@@ -13,7 +13,7 @@ $pageName = "QUIENES SOMOS";
     <?php echo $pageName; ?>
   </title>
   <link rel="stylesheet" href="../../css/styles.css" />
-  <link rel="shortcut icon" href="../../images/simbolo_azul1.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../../images/MDH.png" type="image/x-icon" />
 
   <script src="../../scripts/script.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"

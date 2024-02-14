@@ -12,16 +12,19 @@ $pageName = "PROGRAMAS";
     MDH -
     <?php echo $pageName; ?>
   </title>
-  <link rel="stylesheet" href="../../css/styles.css" />
   <link rel="shortcut icon" href="../../images/MDH.png" type="image/x-icon" />
 
-  <script src="../../scripts/script.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <meta name="keywords" content="Libertad, Religiosa, Iglesia" />
   <meta name="description"
     content="La Fundación Mi derecho es un Hecho es una Organización sin ánimo de lucro que vela por los derechos humanos. Su propósito básico consiste en la construcción, desarrollo y fortalecimiento de la sociedad, formando líderes que sean capaces de desarrollar autonomía, Influencia, Transformación y construcción de una generación de conquista" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <?php
+  include "../../css/styles.html";
+  include_once "../../scripts/script.html";
+  ?>
 </head>
 
 <body>

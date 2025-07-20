@@ -1,0 +1,26 @@
+<script>
+  submitNoticia.addEventListener("click", () => {
+    let formdata = new FormData(formNoticias);
+    alert(formdata.get("titulo"));
+    fetch("./modules/upload.php", {
+      method: "POST",
+      body: formdata,
+    })
+      .then((response) => response.text())
+      .then((data) => {
+        alert(data);
+      });
+  });
+
+  document.querySelectorAll(".btn.n").forEach((btn, i, arr) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".form")[i].classList.add("visible");
+      for (let counter in arr) {
+        if (counter == i) {
+          continue;
+        }
+        document.querySelectorAll(".form")[counter].classList.remove("visible");
+      }
+    });
+  });
+</script>

@@ -41,7 +41,7 @@
     });
   }
 
-  function loadPreview(el) {
+  /*function loadPreview(el) {
     fetch("https://api.peekalink.io/", {
       method: "POST",
       headers: {
@@ -58,8 +58,8 @@
         el.children[1].children[0].children[0].src = data.image.url;
       })
       .catch((error) => console.error("Error:", error));
-  }
-  /**
+  }*/
+  
 function loadPreview(el) {
   fetch(`https://api.linkpreview.net/?q=${el.children[1].children[0].href}`, {
     headers: {
@@ -73,7 +73,6 @@ function loadPreview(el) {
     })
     .catch((error) => console.error("Error:", error));
 }
- */
   // Usar la función fetch para enviar la solicitud a la API
   /*const url = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example"
 fetch(url)

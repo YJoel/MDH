@@ -49,6 +49,90 @@ $pageName = "NOTICIAS";
       <div class='pageTitle pb-4'>
         <h1> NOTICIAS </h1>
       </div>
+<!-- 
+      <div class="noticiasContainer">
+        <div id="carouselExample" class="carousel slide pointer-event">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
+              <div class="description">
+                <h4>
+                  <a href="#">
+                    ESTA ES UNA NOTICIA DE PRUEBA PARA LA PÁGINA WEB DE MI DERECHO ES UN HECHO
+                  </a>
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
+              <div class="description">
+                <h4>
+                  <a href="#">
+                    ESTA ES UNA NOTICIA DE PRUEBA PARA LA PÁGINA WEB DE MI DERECHO ES UN HECHO
+                  </a>
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
+              <div class="description">
+                <h4>
+                  <a href="#">
+                    ESTA ES UNA NOTICIA DE PRUEBA PARA LA PÁGINA WEB DE MI DERECHO ES UN HECHO
+                  </a>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="noticia">
+              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
+              <div class="description">
+                <div>
+                  <a href="##">
+                    ESTA ES UNA NOTICIA DE PRUEBA PARA LA PÁGINA WEB DE MI DERECHO ES UN HECHO
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="noticia">
+              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
+              <div class="description">
+                <div>
+                  <a href="##">
+                    ESTA ES UNA NOTICIA DE PRUEBA PARA LA PÁGINA WEB DE MI DERECHO ES UN HECHO
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="noticia">
+              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
+              <div class="description">
+                <div>
+                  <a href="##">
+                    ESTA ES UNA NOTICIA DE PRUEBA PARA LA PÁGINA WEB DE MI DERECHO ES UN HECHO
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
       <div class="text-center informe">
         <div class="row justify-content-center" style="font-weight: bold;">
           INFORME FUNDADIÓN MI DERECHO ES UN HECHO
@@ -63,10 +147,10 @@ $pageName = "NOTICIAS";
       </div>
       <div class="text-center informe">
         <div class="row justify-content-center" style="font-weight: bold;">
-          ASISTENCIA TÉCNICA
+          INFORME FUNDACION MI DERECHO ES UN HECHO 2023-2024
         </div>
         <div class="row">
-          <a href="https://heyzine.com/flip-book/c6c82b7c23.html" target="_blank">
+          <a href="https://online.flippingbook.com/view/889999632/" target="_blank">
             <img src="">
 
             </img>
@@ -95,68 +179,6 @@ $pageName = "NOTICIAS";
 
             </img>
           </a>
-        </div>
-      </div>
-      <div class="noticiasContainer">
-        <div class="row">
-          <div class="noticiasDestacadas">
-            <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
-            <div class="description">
-              <div>
-                <a href="">Esta es una noticia de prueba para la página web de mi derecho es un hecho</a>
-              </div>
-            </div>
-            <div class="botones">
-              <div class="bt-r">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                  <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-                </svg>
-              </div>
-              <div class="bt-i">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                  <path d="M400-240 160-480l240-240 56 58-142 142h486v80H314l142 142-56 58Z" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <div class="noticia">
-              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
-              <div class="description">
-                <div>
-                  <a href="">
-                    Esta es una noticia de prueba para la página web de mi derecho es un hecho
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="noticia">
-              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
-              <div class="description">
-                <div>
-                  <a href="">
-                    Esta es una noticia de prueba para la página web de mi derecho es un hecho
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="noticia">
-              <img src="../../images/GestionSocial/1/WhatsApp Image 2022-01-04 at 19.45.34.jpeg" alt="">
-              <div class="description">
-                <div>
-                  <a href="">
-                    Esta es una noticia de prueba para la página web de mi derecho es un hecho
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

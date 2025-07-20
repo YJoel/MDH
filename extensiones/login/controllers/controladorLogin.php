@@ -24,8 +24,6 @@ if ($conn->connect_error) {
                 array(
                     "formulario" => "<form action='../admin/' method='POST' id='formEnvio' style='display: none'>
                         <input type='text' value='" . $row["usuario"] . "' id='usuario' name='usuario'>
-                        <input type='text' value='" . $row["nombre"] . "' id='nombre' name='nombre'>
-                        <input type='text' value='" . $row["apellido"] . "' id='apellido' name='apellido'>
                     </form>",
                     "ejecutar" => "formEnvio.submit()",
                 )
